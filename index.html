@@ -9,16 +9,18 @@
 <body>
     <!--Header-->
     <header class="header">
-        <div class="header-content">
-            <h2><span class="blue-text">Web</span>Studio</h2>
-            <ul class="header-list">
-                <li class="header-item"><span class="blue-text">Студія</span></li>
-                <li class="header-item">Портфоліо</li>
-                <li class="header-item">Контакти</li>
+        <h2><span class="blue-text">Web</span>Studio</h2>
+        <nav class="header-navigation">
+            <ul class="header-navigation-list">
+                <li class="header-navigation-item"><span class="blue-text">Студія</span></li>
+                <li class="header-navigation-item">Портфоліо</li>
+                <li class="header-navigation-item">Контакти</li>
             </ul>
+        </nav>
+        <div class="header-contacts>
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a href="tel:+380961111111">+38 096 111 11 11</a>
         </div>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
     </header>
     <main>
         <!--Front section-->
@@ -29,32 +31,117 @@
         <!--Benefits-->
         <section class="benefits">
             <h2 hidden class="benefits-title">Benefits</h2>
-
-            
-            <ul></ul>???
-
-
-            <article class="benefits-article">
-                <h3 class="benefits-article-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                <p class="benefits-content"></p>
-            </article>
-            <article class="benefits-article">
-                <h3 class="benefits-article-title"></h3>
-                <p class="benefits-content"></p>
-            </article>
-            <article class="benefits-article">
-                <h3 class="benefits-article-title"></h3>
-                <p class="benefits-content"></p>
-            </article>
-            <article class="benefits-article">
-                <h3 class="benefits-article-title"></h3>
-                <p class="benefits-content"></p>
-            </article>
+            <ul class="benefits-list">
+                <li class="benefits-item">
+                    <article class="benefits-article">
+                        <h3 class="benefits-article-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                        <p class="benefits-article-content">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                    </article>
+                </li>
+                <li class="benefits-item">
+                    <article class="benefits-article">
+                        <h3 class="benefits-article-title">ПУНКТУАЛЬНІСТЬ</h3>
+                        <p class="benefits-article-content">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                    </article>
+                </li>
+                <li class="benefits-item">
+                    <article class="benefits-article">
+                        <h3 class="benefits-article-title">ПЛАНУВАННЯ</h3>
+                        <p class="benefits-article-content">Так само консультація з широким активом значною мірою зумовлює.</p>
+                    </article>
+                </li>
+                <li class="benefits-item">
+                    <article class="benefits-article">
+                        <h3 class="benefits-article-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                        <p class="benefits-article-content">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                    </article>
+                </li>
+            </ul>
         </section>
         <!--Activity-->
-        <section class="activity"></section>
+        <section class="activity">
+            <h2 class="activity-title">Чим ми займаємося</h2>
+            <ul class="activity-list">
+                <li class="activity-item">
+                    <img class="activity-item-img" 
+                        src="\images\activity\img1.jpg" 
+                        alt="Веб-розробка" 
+                        width="370"
+                        height="294"
+                    />
+                </li>
+                <li class="activity-item">
+                    <img class="activity-item-img" 
+                        src="\images\activity\img2.jpg" 
+                        alt="Розробка мобільних застосунків" 
+                        width="370"
+                        height="294"
+                    />
+                </li>
+                <li class="activity-item">
+                    <img class="activity-item-img" 
+                        src="\images\activity\img3.jpg" 
+                        alt="Оригінальні дизайнерські рішення" 
+                        width="370"
+                        height="294"
+                    />
+                </li>
+            </ul>
+        </section>
         <!--Team-->
-        <section class="team"></section>
+        <section class="team">
+            <h2 class="team-title">Наша команда</h2>
+            <ul class="team-list">
+                <li class="team-item">
+                    <article class="team-member">
+                        <img class="team-member-photo" 
+                            src="\images\team\img1.jpg" 
+                            alt="Фото Ігоря Дем'яненко" 
+                            width="270"
+                            height="260"
+                        />
+                        <p class="team-member-name">Ігор Дем'яненко</p>
+                        <p class="team-member-position">Product Designer</p>
+                    </article>
+                </li>
+                <li class="team-item">
+                    <article class="team-member">
+                        <img class="team-member-photo"
+                            src="\images\team\img2.jpg" 
+                            alt="Фото Ольги Рєпіної" 
+                            width="270"
+                            height="260"
+                        />
+                        <p class="team-member-name">Ольга Рєпіна</p>
+                        <p class="team-member-position">Frontend Developer</p>
+                    </article>
+                </li>
+                <li class="team-item">
+                    <article class="team-member">
+                        <img class="team-member-photo"
+                            src="\images\team\img3.jpg" 
+                            alt="Фото Миколи Тарасова" 
+                            width="270"
+                            height="260"
+                        />
+                        <p class="team-member-name">Микола Тарасов</p>
+                        <p class="team-member-position">Marketing</p>
+                    </article>
+                </li>
+                <li class="team-item">
+                    <article class="team-member">
+                        <img class="team-member-photo"
+                            src="\images\team\img4.jpg" 
+                            alt="Фото Михайла Єрмакова" 
+                            width="270"
+                            height="260"
+                        />
+                        <p class="team-member-name">Михайло Єрмаков</p>
+                        <p class="team-member-position">UI Designer</p>
+                    </article>
+                </li>
+            </ul>
+        </section>
     </main>
     <!--Footer-->
     <footer></footer>
